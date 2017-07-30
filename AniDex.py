@@ -1,4 +1,13 @@
 #!/usr/bin/python
+
+#-----------------------------------------------------------------------------
+# Copyright (c) 2017, Golumpa.
+#
+# Distributed under the terms of the MIT License.
+#
+# The full license is in the file LICENSE, distributed with this software.
+#-----------------------------------------------------------------------------
+
 import sys, getopt
 import requests
 from pprint import pprint
@@ -14,7 +23,7 @@ def main(argv):
 
 	# Optional Config
 	torrentname = "" # Defualt name for the torrent. Use the -n arg to set this in the command line.
-	description = "Uploaded by AniDex remote by Golumpa" # default description for the torrent use the -d arg to set this in command line.
+	description = "Uploaded with AniDex remote by Golumpa" # default description for the torrent use the -d arg to set this in command line.
 	group = "0" # 0 = NO group, set this ID or use the -g arg if you want to release to a group.
 	batch = "0" # 0 = NOT a batch, set to "1" or use --batch in command line if it is a batch.
 	hentai = "0" # 0 = NOT hentai, set to "1" or use --hentai in command line if it is hentai.
