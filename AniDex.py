@@ -27,7 +27,7 @@ def main(argv):
 	torrentfile = "" # File to upload, just setting the variable. Use the -f arg to set this in command line.
 	subcatid = "1" # 1 = Anime Sub, See https://i.golu.mp/OO9zv for API catagory IDs. Use the -c arg to set this in command line.
 	language = "1" # 1 = English, See https://i.golu.mp/CJ7tr for language IDs. Use the -l arg to set this in command line.
-	debug = "1" # Apparently its needed in the API. I belive true is needed for it to be posted on AniDex, use --nosend to turn this to false.
+	debug = "0" # Apparently its needed in the API. I belive true is needed for it to be posted on AniDex, use --nosend to turn this to false.
 
 	# Optional Config
 	torrentname = "" # Defualt name for the torrent. Use the -n arg to set this in the command line.
