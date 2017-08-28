@@ -51,7 +51,7 @@ All push requests are welcome. This was just a quick script I made for my own us
 
 ## License
 
-This project is licensed under the DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
