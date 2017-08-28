@@ -51,7 +51,7 @@ If you would like to add newlines in the description, you can do the following:
 
 Note that this now uses single quotes and an dollar sign infront of the quotes. This also has a downside that variables will no longer be able to be used. To fix that we can do this:
 
-```-n $'1st Line\n2nd Line\n'"${variable}"'\n3rd Line\n4th Line'```
+```-n $'1st Line\n2nd Line\n'"${variable}"$'\n3rd Line\n4th Line'```
 
 
 ## Contributing
