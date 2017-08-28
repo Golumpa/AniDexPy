@@ -44,6 +44,12 @@ The variables you can use and are currently available are (the arguments marked 
 * ```--reencode``` Toggles the option for this torrent to be marked as a re-encode
 * ```--private``` Toggles the option for this torrent to be marked as private so it is not visable to anone else or not in your group (if released under a group)
 * ```--debug``` Toggles the option for this torrent to not actually be uploaded to AniDex and to return information and if the torrent upload would have been successful
+***
+If you would like to add newlines in the description, you can do the following:
+```-n $'1st Line\n2nd Line\n3rd Line\n4th Line'```
+Note that this now uses single quotes and an dollar sign infront of the quotes. This also has a downside that variables will no longer be able to be used. To fix that we can do this:
+```-n $'1st Line\n2nd Line\n'"${variable}"'\n3rd Line\n4th Line'```
+
 
 ## Contributing
 
