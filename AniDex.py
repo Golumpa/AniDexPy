@@ -17,8 +17,6 @@
 
 import sys, getopt
 import requests
-import json
-from pprint import pprint
 
 def main(argv):
 	# Config NEEDED or have to be called by python
