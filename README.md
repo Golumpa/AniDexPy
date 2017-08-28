@@ -13,7 +13,7 @@ What things you need to run AniDexPy
 ```
 Python (tested with 2.7, 3.4, 3.5 and 3.6)
 Python requests
-Pythong getopy
+Python getopy
 ```
 
 ### Installing
